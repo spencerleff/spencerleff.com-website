@@ -398,26 +398,174 @@ nav a {
 }
 
 /* ################## */
-/*       RESUME       */
-/* ################## */
-
-.resumeDownloadTitle {
-  color: rgb(240, 240, 240);
-  font-family: "Montserrat";
-}
-
-/* ################## */
 /*   PROJECTS MENU    */
 /* ################## */
 
-.projectsTitle {
+.projectBody {
+  background: rgb(23, 23, 23);
+}
+
+.hambreSection {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.hambreText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.hambreTitle {
+  font-size: 400%;
+  color: rgb(230, 230, 230);
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 400%;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.hambreInfo {
+  font-size: 175%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+.hambreInfo2 {
+  font-size: 120%;
+  color: #188af0;
+  font-family: "Montserrat";
+  font-weight: 600;
   text-align: center;
   margin: auto;
-  padding-top: 40px;
-  color: rgba(255, 255, 255, 0.85);
+}
+
+.HambreImage {
+  width: 450px;
+  padding: 25px;
+  background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5), rgba(30, 30, 30, 0.6));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  margin: 60px;
+}
+
+.pianoSection {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 300px;
+}
+
+.pianoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pianoTitle {
+  font-size: 400%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.pianoInfo {
+  font-size: 175%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+.pianoInfo2 {
+  font-size: 125%;
+  color: rgb(120, 120, 120);
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+
+.pianoInfo3 {
+  font-size: 120%;
+  color: #188af0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.PianoImage {
+  width: 450px;
+  padding: 25px;
+  background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5), rgba(30, 30, 30, 0.6));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  margin: 60px;
+}
+
+.websiteSection {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 300px;
+}
+
+.websiteText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.websiteTitle {
+  font-size: 350%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.websiteInfo {
+  font-size: 160%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+.websiteInfo2 {
+  font-size: 110%;
+  color: #188af0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+}
+
+.websiteImage {
+  width: 450px;
+  padding: 25px;
+  background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5), rgba(30, 30, 30, 0.6));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  margin: 60px;
 }
 
 /* ################## */
@@ -754,6 +902,15 @@ canvas {
   letter-spacing: 2px;
   margin-top: 10px;
 
+}
+
+/* ################## */
+/*       RESUME       */
+/* ################## */
+
+.resumeDownloadTitle {
+  color: rgb(240, 240, 240);
+  font-family: "Montserrat";
 }
 
 /*--------------------*/
