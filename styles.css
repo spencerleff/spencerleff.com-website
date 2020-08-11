@@ -317,6 +317,12 @@ nav a {
   padding-bottom: 10px;
 }
 
+.bottomPageContact {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 .aboutConnectText {
   color: rgb(168, 159, 233);
   padding-bottom: 4px;
@@ -333,7 +339,6 @@ nav a {
   align-items: center;
   list-style: none;
   margin-left: -30px;
-  margin-top: -3px;
 }
 
 .contactTop li a {
