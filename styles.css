@@ -405,6 +405,57 @@ nav a {
   background: rgb(23, 23, 23);
 }
 
+.FrogHeroSection {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.FrogHeroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.FrogHeroTitle {
+  font-size: 400%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.FrogHeroInfo {
+  font-size: 175%;
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+.FrogHeroInfo2 {
+  font-size: 120%;
+  color: #188af0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+}
+
+.FrogHeroImage {
+  width: 450px;
+  padding: 25px;
+  background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5), rgba(30, 30, 30, 0.6));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  margin: 60px;
+}
+
 .hambreSection {
   display: flex;
   align-items: center;
