@@ -1,2 +1,0 @@
-# spencerleff.com
-Official website
