@@ -1,16 +1,42 @@
 :root {
-    --background_color: #fafaf0;
+    --bg_color: rgb(252, 249, 248);
+    --transparent_bg_color: rgba(252, 249, 248, 0.8);
     --text_color: #232d32;
+    --accent_color:#388ca1;
 
     --title_font: 'Bebas Neue', sans-serif;
     --text_font: 'Quicksand', sans-serif;
 }
 
-.title {   
-    color: var(--text_color);
+.typewriter {
+    display: inline-block;
+  }
+
+.typewriter_text {
+    width: 0;
     font-family: var(--title_font);
-    font-size: 400%;
-    font-weight: 100;
-    letter-spacing: 1px;
+    overflow: hidden;
+    border-right: 0.75vw solid var(--accent_color);
+    white-space: nowrap;
+    font-size: 7.825vw;
+    animation: typing 4.75s forwards, remove_cursor 1s 4.25s forwards;
 }
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes remove_cursor {
+    from { border-right-color: var(--accent_color); }
+    to { border-right-color: transparent; }
+}
+
+.title {
+    color: var(--text_color);
+    font-family: var(--title_font);
+    font-size: 4vw;
+    min-width: 4vw; min-height: 4vh;
+    font-weight: 200;
+    letter-spacing: 0.085vh;
+}

@@ -1,87 +1,66 @@
 :root {
-    --bg_color: #fafaf0;
-    --transparent_bg_color: rgba(250, 250, 240, 0.8);
+    --bg_color: rgb(252, 249, 248);
+    --transparent_bg_color: rgba(252, 249, 248, 0.8);
     --text_color: #232d32;
-    --accent_color: #ffa500;
+    --accent_color:#388ca1;
 
     --title_font: 'Bebas Neue', sans-serif;
     --text_font: 'Quicksand', sans-serif;
 }
 
 body {
-    margin: 0 15%;
+    margin: 0 15vw;
     color: var(--text_color);
     background-color: var(--bg_color);
 }
 
 .navigation {
     position: sticky;
-    top: 7.5%;
+    top: 7.5vh;
     z-index: 100;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    text-align: center;
-}
-
-.logo {
-    padding: 0% 2%;
-    background-color: var(--transparent_bg_color);
-    border-radius: 50px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    min-width: 115px;
-}
-
-.logo_text a {
-    text-decoration: none;
-    user-select: none;
-    color: var(--text_color);
-    font-size: 150%;
-    font-weight: 200;
-    letter-spacing: 0.75px;
-    font-family: var(--title_font);
+    margin-top: 5vh;
+    margin-bottom: 20vh;
     text-align: center;
 }
 
 nav {
-    padding: 5px;
     background-color: var(--transparent_bg_color);
-    border-radius: 50px;
+    border-radius: 50vw;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
 
 nav ul {
+    margin: 0;
+    padding: 1vh 1vw;
     user-select: none;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: 8px 7px;
-    padding: 0;
 }
 
 nav li {
-    margin: 0 15px;
+    margin: 0 1.5vh;
 }
 
 nav a {
+    text-align: center;
     text-decoration: none;
     user-select: none;
     color: var(--text_color);
-    font-size: 150%;
+    font-size: 2.5vh;
+    min-width: 2.5vw; min-height: 2.5vh;
     font-weight: 200;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.085vh;
     font-family: var(--title_font);
-    text-align: center;
 }
 
 .selected_nav {
     color: var(--accent_color);
-    text-decoration: underline;
 }
 
 .nav_hover {
@@ -93,5 +72,5 @@ nav a {
 }
 
 .body_spacing {
-    margin: 0 1%;
+    margin: 0 1.5vw;
 }
