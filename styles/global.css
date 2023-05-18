@@ -9,7 +9,7 @@
 }
 
 body {
-    margin: 0 15vw;
+    margin: 0 12.5vw;
     color: var(--text_color);
     background-color: var(--bg_color);
 }
@@ -37,6 +37,7 @@ nav {
 nav ul {
     margin: 0;
     padding: 1vh 1vw;
+    min-width: 117.5px;
     user-select: none;
     list-style-type: none;
     display: flex;
@@ -52,7 +53,7 @@ nav a {
     text-decoration: none;
     user-select: none;
     color: var(--text_color);
-    font-size: 2.75vh;
+    font-size: 130%;
     font-weight: 200;
     letter-spacing: 0.085vh;
     font-family: var(--title_font);
@@ -71,5 +72,19 @@ nav a {
 }
 
 .body_spacing {
-    margin: 0 1.5vw;
+    margin: 0 1.4vw;
+}
+
+.footer {
+    margin-left: -12.5vw;
+    height: 150px;
+    width: 100vw;
+    background-color: var(--accent_color);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.footer_text {
+    font-family: var(--title_font);
+    font-size: 150%;
+    text-align: center;
 }

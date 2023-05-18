@@ -10,7 +10,7 @@
 
 .typewriter {
     display: inline-block;
-  }
+}
 
 .typewriter_text {
     width: 0;
@@ -18,7 +18,8 @@
     overflow: hidden;
     border-right: 0.75vw solid var(--accent_color);
     white-space: nowrap;
-    font-size: 7.825vw;
+    font-size: 7.85vw;
+    letter-spacing: 0.2vw;
     animation: typing 4.75s forwards, remove_cursor 1s 4.25s forwards;
 }
 
@@ -36,7 +37,6 @@
     color: var(--text_color);
     font-family: var(--title_font);
     font-size: 4vw;
-    min-width: 4vw; min-height: 4vh;
     font-weight: 200;
     letter-spacing: 0.085vh;
 }
