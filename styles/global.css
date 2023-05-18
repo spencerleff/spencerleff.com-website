@@ -52,11 +52,16 @@ nav a {
     text-decoration: none;
     user-select: none;
     color: var(--text_color);
-    font-size: 2.5vh;
-    min-width: 2.5vw; min-height: 2.5vh;
+    font-size: 2.65vh;
     font-weight: 200;
     letter-spacing: 0.085vh;
     font-family: var(--title_font);
+}
+
+@media screen and (max-width: 505px) {
+    nav a {
+        font-size: 2vh;
+    }
 }
 
 .selected_nav {
