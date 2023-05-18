@@ -1,36 +1,58 @@
+:root {
+    --bg_color: #fafaf0;
+    --transparent_bg_color: rgba(250, 250, 240, 0.8);
+    --text_color: #232d32;
+    --accent_color: #ffa500;
+
+    --title_font: 'Bebas Neue', sans-serif;
+    --text_font: 'Quicksand', sans-serif;
+}
+
 body {
-    margin: 0;
-    color: black;
-    background-color: white;
+    margin: 0 15%;
+    color: var(--text_color);
+    background-color: var(--bg_color);
 }
 
 .navigation {
+    position: sticky;
+    top: 7.5%;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
-    padding: 4% 0;
-
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
 }
 
 .logo {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 175%;
-    font-weight: 200;
+    padding: 0% 2%;
+    background-color: var(--transparent_bg_color);
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    min-width: 115px;
+}
+
+.logo_text a {
     text-decoration: none;
     user-select: none;
-    color: black;
-    letter-spacing: 2px;
-    text-shadow: 1.25px 1.25px rgba(0, 0, 0, 0.5);
-    margin-left: 15%;
+    color: var(--text_color);
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+    font-family: var(--title_font);
+    text-align: center;
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-    margin-right: 15%;
+    padding: 5px;
+    background-color: var(--transparent_bg_color);
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 nav ul {
@@ -44,21 +66,32 @@ nav ul {
 
 nav li {
     margin: 0 15px;
-    font-size: 130%;
-    font-weight: 300;
-    font-family: 'Bebas Neue', sans-serif;
 }
 
 nav a {
     text-decoration: none;
     user-select: none;
-    color: black;
+    color: var(--text_color);
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+    font-family: var(--title_font);
+    text-align: center;
 }
 
-.title {
-    font-family: 'Bebas Neue', sans-serif;
+.selected_nav {
+    color: var(--accent_color);
+    text-decoration: underline;
 }
 
-.text {
-    font-family: 'Quicksand', sans-serif;
+.nav_hover {
+    transition: transform 0.35s ease;
+}
+
+.nav_hover:hover {
+    transform: scale(1.05);
+}
+
+.body_spacing {
+    margin: 0 1%;
 }

@@ -1,0 +1,16 @@
+:root {
+    --background_color: #fafaf0;
+    --text_color: #232d32;
+
+    --title_font: 'Bebas Neue', sans-serif;
+    --text_font: 'Quicksand', sans-serif;
+}
+
+.title {   
+    color: var(--text_color);
+    font-family: var(--title_font);
+    font-size: 400%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
