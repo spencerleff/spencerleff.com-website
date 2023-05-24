@@ -1,12 +1,14 @@
-document.querySelector('.hamburger').addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.querySelector('.hamburger');
+  var fullscreenNav = document.querySelector('.fullscreen_nav');
+  var remainingPage = document.querySelectorAll('body > *:not(.navigation):not(.fullscreen_nav)');
+
+  hamburger.addEventListener('click', function() {
     this.classList.toggle('active');
+    fullscreenNav.classList.toggle('active');
 
-    var fullscreen_nav = document.querySelector('.fullscreen_nav');
-    fullscreen_nav.classList.toggle('active');
-
-    var remaining_page = document.querySelectorAll('body > *:not(.navigation):not(.fullscreen_nav)');
-    remaining_page.forEach(function(element) {
+    remainingPage.forEach(function(element) {
       element.classList.toggle('hidden');
     });
   });
-  
+});
