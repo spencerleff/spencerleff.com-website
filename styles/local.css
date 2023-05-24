@@ -13,12 +13,13 @@
 }
 
 .typewriter_text {
+    user-select: none;
     width: 0;
     font-family: var(--title_font);
     overflow: hidden;
     border-right: 0.75vw solid var(--accent_color);
     white-space: nowrap;
-    font-size: 7.85vw;
+    font-size: 7.8vw;
     letter-spacing: 0.2vw;
     animation: typing 4.75s forwards, remove_cursor 1s 4.25s forwards;
 }
